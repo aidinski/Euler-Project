@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>98fdfec4-db22-433c-a9f3-54016d049047</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Euler_Project.py</StartupFile>
+    <StartupFile>is_Santionced.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Euler_Project.py" />
+    <Compile Include="fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="largestPrimeFactor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Largest palindrome product.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="is_Santionced.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sumSquareDifference.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="smallestMultiple.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
